@@ -6,20 +6,14 @@ public class StackFactory<T> {
         IStack<T> stack;
 
         switch (type.toLowerCase()) {
-            case "Vector" -> {
+            case "vector" -> {
                 stack = new StackUsingVector<T>();
 
             }
-            case "ArrayList" -> {
+            case "arraylist" -> {
                 stack = new StackUsingArrayList<T>();
 
             }
-            case "List" -> {
-                stack = new StackUsingLinkedList<T>();
-                stack = new StackUsingDoubleLinkedList<T>();
-                ListFactory<T> stackk = new ListFactory<T>();
-            }
-
             default -> {
                 stack = null;
             }

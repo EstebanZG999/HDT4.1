@@ -7,12 +7,30 @@ public class Calculator implements IPostFixCalculator{
     int Resultados = 0;
     String Datos = "";
     String[] spliting;
+    //Author moises
+    private static boolean flag = false;
+    private static Calculator Uni_calc;
 
     /**
      * @param
      * @param
      * @return
      */
+
+    //Author moises
+    private Calculator(){
+        flag = true;
+    }
+
+    public static Calculator getInstance(){
+        if(flag){
+            return  Uni_calc;
+        } else {
+            Uni_calc = new Calculator();
+            return Uni_calc;
+        }
+    }
+
     @Override
     public  boolean isOneItem(IStack operandos) {
         if (operandos.count()==1) {
