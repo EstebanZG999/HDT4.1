@@ -16,6 +16,10 @@ public class StackHandmade<T> implements IStack<T> {
         count = 0;
     }
 
+    
+    /** 
+     * @return int
+     */
     @Override
     public int count() {
         return count;

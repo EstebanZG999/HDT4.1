@@ -1,6 +1,11 @@
 import java.util.*;
 public class StackFactory<T> {
 
+    
+    /** 
+     * @param type
+     * @return IStack<T>
+     */
     public IStack<T> getInstance(String type) {
 
         IStack<T> stack;

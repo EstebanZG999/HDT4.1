@@ -8,11 +8,19 @@ public class StackUsingVector<T> implements IStack<T> {
         vector = new Vector<T>();
     }
 
+    
+    /** 
+     * @return int
+     */
     @Override
     public int count() {
         return vector.size();
     }
 
+    
+    /** 
+     * @return boolean
+     */
     @Override
     public boolean isEmpty() {
         return vector.isEmpty();

@@ -14,6 +14,10 @@ public class DoubleLinkedList<T> implements IList<T> {
         count = 0;
     }
 
+    
+    /** 
+     * @param value
+     */
     @Override
     public void InsertAtStart(T value) {
         DoubleNode<T> newNode = new DoubleNode<T>(value);

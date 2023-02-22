@@ -10,6 +10,10 @@ public class StackUsingDoubleLinkedList<T> implements IStack<T> {
         listaInterna = new DoubleLinkedList<T>();
     }
 
+    
+    /** 
+     * @return int
+     */
     @Override
     public int count() {
         return listaInterna.Count();

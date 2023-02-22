@@ -138,6 +138,12 @@ public class Controlador {
     }
 
 
+
+/** 
+ * @param a
+ * @param b
+ * @param calc
+ */
 //Obtenido de Hoja de trabajo 2 grupo 2
     public void Mates(int a,int b,Calculator calc){
         String Variable = stackk.pull();

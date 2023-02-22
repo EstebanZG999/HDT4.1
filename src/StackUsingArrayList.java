@@ -12,6 +12,10 @@ public class StackUsingArrayList<T> implements IStack<T> {
         miListaInterna = new ArrayList<T>();
     }
 
+    
+    /** 
+     * @return int
+     */
     @Override
     public int count() {
         return miListaInterna.size();

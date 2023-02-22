@@ -22,6 +22,10 @@ public class Calculator implements IPostFixCalculator{
         flag = true;
     }
 
+    
+    /** 
+     * @return Calculator
+     */
     public static Calculator getInstance(){
         if(flag){
             return  Uni_calc;
