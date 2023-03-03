@@ -1,5 +1,6 @@
 import java.util.*;
-public class StackFactory<T> {
+public class
+StackFactory<T> {
 
     public IStack<T> getInstance(String type) {
 
