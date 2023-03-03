@@ -2,6 +2,11 @@ import java.util.*;
 
 public class ListFactory <T>{
 
+    
+    /** 
+     * @param type
+     * @return IList<T>
+     */
     public IList<T> getInstance(String type){
 
         IList<T> list;

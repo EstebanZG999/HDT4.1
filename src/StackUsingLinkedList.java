@@ -11,6 +11,10 @@ public class StackUsingLinkedList<T> implements IStack<T> {
         listaInterna = new SingleLinkedList<T>();
     }
 
+    
+    /** 
+     * @return int
+     */
     @Override
     public int count() {
         return listaInterna.Count();
